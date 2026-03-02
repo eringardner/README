@@ -10,3 +10,5 @@ After analyzing the data for 530 invoices in these past 2 years which total over
 - The data shows a distribution with most of them being paid (300 invoices)
 there must be analysis into the almost half overdue or pending (this can cause a big unbalance because it means they have been paid and they had a due date set, which means they aren't following compliance or aren't yet to be paid, leaving this space for liquid movement (the information to have a quick eye on is flagged in the section of high invoice amount and overdue status, for a faster analysis on these vendors). -- The graph can then also help identify seasonal trends and important months.
 - There is a current critical risk for the cash flow which must be addressed.
+
+  > *by Erin Gardner*
