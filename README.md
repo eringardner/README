@@ -1,12 +1,12 @@
 # **INVOICES DESCRIPTION OF CODE AND INSIGHTS**
 
-### *Before running the code it's necessary to remember to load the .csv file with the name invoices (2).csv into the system so it can run pulling the information from this csv file with the same name and the columns which are the same so that there isn't any missing data. It uses suggested libraries like pandas for working with the data and analyzing, matplotlib for making the bar chart of the months amount, FPDF for generating a pdf report at the end.*
+> *Before running the code it's necessary to remember to load the .csv file with the name invoices (2).csv into the system so it can run pulling the information from this csv file with the same name and the columns which are the same so that there isn't any missing data. It uses suggested libraries like pandas for working with the data and analyzing, matplotlib for making the bar chart of the months amount, FPDF for generating a pdf report at the end.*
 
 At the beggining after loading the data to see it visually in a chart, the code works on analyzing the data size and grouping by several commands to get total amounts, sums, and analyzing payment status of invoices, getting date ranges and getting each vendors invoice summary. Then it shows the full chart with only the columns asked for the analysis and it shows all of them since this was asked for. After, jumping to section 3 it identifies only the invoices with either more than 5000 USD or overdue and we can see that a big majority has at least 1 of these factors. Afterwards it creates a bar graph to show the amount per month in a visual way, with the highest invoice $ amount being in february 2024 and then august 2024 and december 2025; while the lowest where january 2024 and february 2026. The final report is saved as "Invoice_Report.pdf".
 
 ## Assumptions 
 after analyzing the data for 530 invoices in these past 2 years which total over $2 millions
 
-> the data shows a distribution with most of them being paid (300 invoices)
-there must be analysis into the almost half overdue or pending (this can cause a big unbalance because it means they have been paid and they had a due date set, which means they aren't following compliance or aren't yet to be paid, leaving this space for liquid movement (the information to have a quick eye on is flagged in the section of high invoice amount and overdue status, for a faster analysis on these vendors). ->The graph can then also help identify seasonal trends and important months.
->There is a current critical risk for the cash flow which must be addressed.
+- the data shows a distribution with most of them being paid (300 invoices)
+there must be analysis into the almost half overdue or pending (this can cause a big unbalance because it means they have been paid and they had a due date set, which means they aren't following compliance or aren't yet to be paid, leaving this space for liquid movement (the information to have a quick eye on is flagged in the section of high invoice amount and overdue status, for a faster analysis on these vendors). -- The graph can then also help identify seasonal trends and important months.
+- There is a current critical risk for the cash flow which must be addressed.
